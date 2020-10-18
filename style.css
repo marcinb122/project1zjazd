@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Globalne */
+
+.wrapper {
+  max-width: 1000px;
+  margin: 20px auto;
+  font-family: 'Lato', sans-serif;
+  border: 1px solid black;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: black;
+
+}
+
+/* Header */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+/* Brand */
+.brand a,
+.brand img {
+  display: block;
+}
+
+/* Menu */
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 3px;
+}
+
+nav a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: black;
+  transition: 0.5s;
+}
+
+nav a:hover {
+  background: black;
+  color: white;
+}
+
+/* Slider */
+
+.slider img {
+  display: block;
+}
+
+/* Main */
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+article {
+  width: 70vw;
+  padding: 30px;
+}
+
+/* Aside */
+
+aside {
+  width: 30vw;
+  padding: 20px;
+  border-left: 2px solid black;
+  background-color: lightgray;
+}
+
+.widget {
+  margin-bottom: 40px;
+}
+
+.widget img {
+  float: left;
+  margin: 0 12px 10px 0;
+}
+
+.links ul {
+  list-style-type: square;
+  padding-left: 18px;
+}
+
+.links li {
+  margin-bottom: 16px;
+}
+
+/* Footer */
+footer {
+  background-color: lightgray;
+  border-top: 2px solid black;
+  padding: 10px 20px;
+  text-align: center;
+}
